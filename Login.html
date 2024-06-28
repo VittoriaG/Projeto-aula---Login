@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/logoCS.png" type="image/x-icon">
+    <title>Login</title>
+    <link rel="stylesheet" href="public/style.css">
+    <script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+        <section>
+            <header>
+                <h1>Tópicos Avançados em Sistemas de Informação I</h1>
+            </header>
+            <nav>
+                <a href="Pagina01.html">Home</a>
+                <a href="Pagina02.html">Notícias</a>
+                <a href="Pagina03.html">SAQ</a>
+                <a href="Login.html">Login</a>
+            </nav>
+        </section>
+        <section class="main-container">
+            <main class="main-content">
+                    <h1>Login</h1>
+                    <form class="login-container" action="javascript:validarLogin()" id="login-form" method="POST">
+                        <label for="username">Nome de usuário:</label><br>
+                        <input type="text" id="username" name="username" autocomplete="off" placeholder="Usuário" required><br>
+                        <label for="password">Senha:</label><br>
+                        <input type="password" id="password" name="password" autocomplete="off" placeholder="Senha" required><br><br>
+                        <img src="https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png"
+                    onclick="show()" id="showimg">
+                        <span class="lnr lnr-eye"></span>
+                        <button type="submit">Login</button>
+                    </form>
+            </main>
+        </section>
+    <section class="footer-container">
+        <footer>
+            <div class="name-container">
+                <label>Camila Teixeira - RGM: 36127060</label>
+                <label>Gabriela Borges - RGM: 35798386</label>
+            </div>
+            <div class="name-container">
+                <label>Rafael da Silva - RGM: 35929502</label>
+                <label>Vitória Gimenes - RGM: 36543501</label>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
